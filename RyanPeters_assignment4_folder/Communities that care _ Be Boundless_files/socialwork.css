@@ -1195,7 +1195,7 @@ body, html {
 }
 
 #immersive-body {
-    overflow: hidden
+    overflow: auto/*hidden*/
 }
 
 #immersive-body h1, #immersive-body h2, #immersive-body h3, #immersive-body h4, #immersive-body h5 {
@@ -1318,7 +1318,7 @@ video {
     }
 
     .intro .udub-slant {
-        display: none
+        display: inline-block;
     }
 }
 
